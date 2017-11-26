@@ -1,0 +1,14 @@
+.Notification {
+  font-family: 'Arial';
+
+  &__message {
+    &--error {
+      text-align: center;
+      padding: 30px;
+      font-size: 20px;
+      background-color: rgb(170, 75, 75);
+      border: 3px solid rgb(112, 31, 31);
+      color: #fff;
+    }
+  }
+}
